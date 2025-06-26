@@ -141,7 +141,7 @@ submitBtn.addEventListener('click', () => {
                 setTimeout(() => {
                     feedbackEl.innerHTML = finalMessage;
                     feedbackEl.className = 'feedback final';
-                }, 500);
+                }, 700);
             }
         }, 2000);
     }
